@@ -1,3 +1,66 @@
+
 body {
-    
+    background-image: url("/../img/counter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+.container-fluid {
+
+}
+
+.jumbotron {
+    opacity: 0.5;
+    background-color: #A9BCD0;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+}
+#jumbo-header {
+    /*font-family: 'Sansita', sans-serif;*/
+    color: #373F51;
+    font-size: 70;
+    letter-spacing: 5px;
+}
+
+#form-div {
+    border-radius: 3px;
+    background-color: #A9BCD0;
+    opacity: 0.5;
+    margin-top: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 50%;
+    height: 5%;
+    padding-top: 2%;
+}
+
+/*see_count.html.twig styles*/
+#results-div {
+    border-radius: 3px;
+    background-color: #A9BCD0;
+    opacity: 0.5;
+    margin-top: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 50%;
+    height: 5%;
+    padding-top: 2%;
+    font-size: 16px;
+}
+
+#results-div p {
+
+}
+
+.btn {
+    background-color: #58A4B0;
+    color: white;
+}
+
+input {
+    border-radius: 3px;
+    font-size: 16px;
 }

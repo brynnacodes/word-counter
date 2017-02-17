@@ -5,19 +5,23 @@
         <title>Homepage</title>
         <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="/css/styles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
         <script src="/js/jquery-3.1.1.js"></script>
         <script src="/js/scripts.js"></script>
     </head>
     <body>
-        <div class="container">
-            <div class="jumbotron-fluid">
-            <h1>Repeat Word Counter</h1>
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <h1 id="jumbo-header">Repeat Word Counter</h1>
             </div>
-            <form class="form-group" action="/see_count" method="post">
-                <input type="text" name="userinput1" placeholder="enter a sentence">
-                <input type="text" name="userinput2" placeholder="enter a word to count">
-                <button class="btn" type="submit">See count!</button>
-            </form>
+
+            <div id="form-div">
+                <form class="form-group" action="/see_count" method="post">
+                    <input type="text" name="userinput1" placeholder="Enter a sentence">
+                    <input type="text" name="userinput2" placeholder="Enter a word to count">
+                    <button class="btn btn-lg" type="submit">See count!</button>
+                </form>
+            </div>
         </div>
     </body>
 </html>
