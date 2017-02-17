@@ -5,16 +5,17 @@
         <title>Word Count</title>
         <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="/css/styles.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dosis:400,600" rel="stylesheet">
         <script src="/js/jquery-3.1.1.js"></script>
         <script src="/js/scripts.js"></script>
     </head>
     <body>
         <div class="container">
             <div id="results-div">
-                <p>Your sentence: {{ input1 }}</p>
-                <p>Your word to count: {{ input2 }}</p>
-                <p>Your word count: {{ result }}</p>
+                <p><strong>Your sentence:</strong> {{ input1 }}</p>
+                <p><strong>Your word to count: </strong> {{ input2 }}</p>
+                <p><strong>Your word count: </strong> {{ result }}</p>
+                <p><strong> Your word definition: </strong> {{ definition }} </p>
                 <a href="/"><button class="btn btn-lg">Go back</button></a>
             </div>
         </div>
