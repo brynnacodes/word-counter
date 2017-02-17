@@ -13,6 +13,17 @@ class RepeatCounterTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals(1, $result);
     }
+
+    //second test, spec 2: program counts a single occurence of a single word in a string
+    function test_count_repeat_singleWord() {
+        $input1 = 'boat';
+        $input2 = 'boat';
+        $test_repeat_counter = new RepeatCounter;
+
+        $result = $test_repeat_counter->CountRepeats($input1, $input2);
+
+        $this->assertEquals(1, $result);
+    }
 }
 
 ?>
