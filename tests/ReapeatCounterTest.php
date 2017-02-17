@@ -36,11 +36,20 @@ class RepeatCounterTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(1, $result);
     }
 
-
-
     //fourth test, spec 4: program counts a two occurences of a single word in a multiple word string
     function test_count_repeat_multipleWordMultiString() {
-        $input1 = 'the cow jumped over the moon';
+        $input1 = 'there were two cats and two dogs';
+        $input2 = 'two';
+        $test_repeat_counter = new RepeatCounter;
+
+        $result = $test_repeat_counter->CountRepeats($input1, $input2);
+
+        $this->assertEquals(2, $result);
+    }
+
+    //fifth test, spec 5: program correctly handles user inputs with multiple cases
+    function test_count_repeat_multipleCases() {
+        $input1 = 'ThE COW jumPED OvEr THE moon';
         $input2 = 'the';
         $test_repeat_counter = new RepeatCounter;
 

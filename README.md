@@ -21,28 +21,28 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 ## Specifications
 
 * _Behavior: The program will find and output the occurrence a single letter_
-    *_Input: String: "a", Find: "a"_
-    *_Output: 1_
+    **_Input: String: "a", Find: "a"_
+    **_Output: 1_
 
 * _Behavior: The program will find and output the single occurrence of a single word_
-    *_Input: String: "hello", Find: "hello"_
-    *_Output: 1_
+    **_Input: String: "hello", Find: "hello"_
+    **_Output: 1_
 
 * _Behavior: The program will find a single occurrence of a word in a multi-word    string_
-    *_Input: String: "My name is John Doe", Find: "name"_
-    *_Output: 1_
+    **_Input: String: "My name is John Doe", Find: "name"_
+    **_Output: 1_
 
 * _Behavior: The program will find multiple occurrences of a single word in a string_
-    *_Input: String: "There were two dogs and two cats", Find: "two"_
-    *_Output: 2_
-
-* _Behavior: The program will reject number inputs_
-  * _Input: 123287_
-  * _Output: 123287_
+    **_Input: String: "There were two dogs and two cats", Find: "two"_
+    **_Output: 2_
 
 * _Behavior: The program will accept title case, capitalized, or multi case strings_
-  * _Input: String: "ThE COW jumPED OvEr THE moon", Find: "the"_
-  * _Output: 2_
+  ** _Input: String: "ThE COW jumPED OvEr THE moon", Find: "the"_
+  ** _Output: 2_
+
+* _Behavior: The program will reject number inputs_
+    ** _Input: 123287_
+    ** _Output: 123287_
 
 ## Known Bugs
 

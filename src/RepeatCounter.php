@@ -4,8 +4,8 @@
 
         function CountRepeats($input1, $input2)
         {
-          $stringInput = $input1;
-          $wordInput = $input2;
+          $stringInput = strtolower($input1);
+          $wordInput = strtolower($input2);
 
           $result = substr_count($stringInput, $wordInput);
 
