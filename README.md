@@ -44,6 +44,11 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
     ** _Input: 123_
     ** _Output: 123_
 
+* _Behavior: The program will return nothing if the user input is empty_
+    ** _Input: ""_
+    ** _Output: ""_
+
+
 ## Known Bugs
 
 _No known bugs_
