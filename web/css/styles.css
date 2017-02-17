@@ -1,5 +1,6 @@
 /*general styles*/
 
+
 body {
     background-image: url("/../img/counter.jpg");
     background-repeat: no-repeat;
@@ -53,13 +54,13 @@ input {
     border-radius: 3px;
     background-color: #A9BCD0;
     background:rgba(255,255,255,0.5);
-    margin-top: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     width: 50%;
     height: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2%;
     font-size: 22px;
 }
