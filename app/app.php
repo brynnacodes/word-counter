@@ -13,8 +13,8 @@
 
     $app->post('/see_count', function() use($app) {
         $new_repeat_counter = new RepeatCounter;
-        $input1 = ($_POST['userinput1']);
-        $input2 = ($_POST['userinput2']);
+        $input1 = strtolower($_POST['userinput1']);
+        $input2 = strtolower($_POST['userinput2']);
         $result = $new_repeat_counter->CountRepeats($input1, $input2);
         $definition = $new_repeat_counter->CheckWord($input2);
         return $app["twig"]->render("see_count.html.twig", ['result' => $result, 'input1' => $input1, 'input2' => $input2, 'definition' =>$definition]);

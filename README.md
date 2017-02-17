@@ -48,6 +48,9 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
     ** _Input: ""_
     ** _Output: ""_
 
+* _Behavior: The program will return a definition for the word being counted_
+    ** _Input: String: "The old man walked down the lane", Find: "old"_
+    ** _Output: "old: dating from the remote past"_
 
 ## Known Bugs
 
