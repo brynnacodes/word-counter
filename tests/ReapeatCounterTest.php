@@ -57,6 +57,18 @@ class RepeatCounterTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals(2, $result);
     }
+
+    //fifth test, spec 6: program returns false if user input is a numeric string
+    function test_count_repeat_numberInput() {
+        $input1 = '123';
+        $input2 = '1';
+        $test_repeat_counter = new RepeatCounter;
+
+        $result = $test_repeat_counter->CountRepeats($input1, $input2);
+
+        $this->assertEquals(false, $result);
+    }
+
 }
 
 ?>

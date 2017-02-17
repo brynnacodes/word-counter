@@ -41,8 +41,8 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
   ** _Output: 2_
 
 * _Behavior: The program will reject number inputs_
-    ** _Input: 123287_
-    ** _Output: 123287_
+    ** _Input: 123_
+    ** _Output: 123_
 
 ## Known Bugs
 
