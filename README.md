@@ -6,17 +6,14 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This PHP/Silex application allows users to enter a sentence and count how many instances of a particular word occur in that sentence. The program also checks to see if the word being counted returns a dictionary definition, and if so, displays it using the Merriam-Webster api._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Clone this repository_
+* _Install composer_
+* _Start a local server in the web directory_
+* _Navigate to localhost:8000 in your preferred web browser_
 
 ## Specifications
 
@@ -54,7 +51,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_No known bugs_
+_One known issue with searching particular words through the api; May be relating to emptying the cache. _
 
 ## Support and contact details
 
