@@ -2,7 +2,7 @@
 
 #### _A PHP application to determine how many times a word appears in a string!, {02/17/17}_
 
-#### By _**{Brynna Klamkin-McCarter**_
+#### By _**Brynna Klamkin-McCarter**_
 
 ## Description
 
@@ -18,40 +18,40 @@ _This PHP/Silex application allows users to enter a sentence and count how many 
 ## Specifications
 
 * _Behavior: The program will find and output the occurrence a single letter_
-    **_Input: String: "a", Find: "a"_
-    **_Output: 1_
+    *_Input: String: "a", Find: "a"_
+    *_Output: 1_
 
 * _Behavior: The program will find and output the single occurrence of a single word_
-    **_Input: String: "hello", Find: "hello"_
-    **_Output: 1_
+    *_Input: String: "hello", Find: "hello"_
+    *_Output: 1_
 
 * _Behavior: The program will find a single occurrence of a word in a multi-word    string_
-    **_Input: String: "My name is John Doe", Find: "name"_
-    **_Output: 1_
+    *_Input: String: "My name is John Doe", Find: "name"_
+    *_Output: 1_
 
 * _Behavior: The program will find multiple occurrences of a single word in a string_
-    **_Input: String: "There were two dogs and two cats", Find: "two"_
-    **_Output: 2_
+    *_Input: String: "There were two dogs and two cats", Find: "two"_
+    *_Output: 2_
 
 * _Behavior: The program will accept title case, capitalized, or multi case strings_
-  ** _Input: String: "ThE COW jumPED OvEr THE moon", Find: "the"_
-  ** _Output: 2_
+    * _Input: String: "ThE COW jumPED OvEr THE moon", Find: "the"_
+    * _Output: 2_
 
 * _Behavior: The program will reject number inputs_
-    ** _Input: 123_
-    ** _Output: 123_
+    * _Input: 123_
+    * _Output: 123_
 
 * _Behavior: The program will return nothing if the user input is empty_
-    ** _Input: ""_
-    ** _Output: ""_
+    * _Input: ""_
+    * _Output: ""_
 
 * _Behavior: The program will return a definition for the word being counted_
-    ** _Input: String: "The old man walked down the lane", Find: "old"_
-    ** _Output: "old: dating from the remote past"_
+    * _Input: String: "The old man walked down the lane", Find: "old"_
+    * _Output: "old: dating from the remote past"_
 
 ## Known Bugs
 
-_One known issue with searching particular words through the api; May be relating to emptying the cache. _
+_One known api issue related to searching the word "the". Error is within Merriam-Webster xml file._
 
 ## Support and contact details
 
